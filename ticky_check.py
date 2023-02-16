@@ -6,7 +6,7 @@ import operator
 
 
 errorPattern = r"ticky: ERROR ([\w ]*) \(([\w.]*)\)"
-userPattern = r"ticky: ([INFO | ERROR]) ([\w ]*) \(([\w.]*)\)"
+userPattern = r"ticky: (INFO|ERROR) ([\w ]*) \(([\w.]*)\)"
 
 
 def sort_by_key(dict):
