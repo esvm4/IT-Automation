@@ -1,6 +1,10 @@
-# Log Analysis Using Regular Expressions
+<h1> Log Analysis Using Regular Expressions </h1>
 
-## Introduction
+1. [Introduction](#introduction)
+2. [Generate reports](#generate-reports)
+3. [Visualize reports](#visualize-reports)
+
+# Introduction
 
 - Imagine your company uses a server that runs a service called ticky, an internal ticketing system. The service logs events to syslog, both when it runs successfully and when it encounters errors.
 
@@ -13,7 +17,7 @@
 - Write to a file in CSV format
 - Move files to the appropriate directory for use with the CSV->HTML converter
 
-## Generate reports
+# Generate reports
 
 Now, we're going to practice creating a script, named ticky_check.py, that generates two different reports from this internal ticketing system log file i.e., syslog.log. This script will create the following reports:
 
@@ -53,7 +57,7 @@ After sorting these dictionaries, store them in two different files: **error_mes
 
 Save the **ticky_check.py** file by clicking Ctrl-o, Enter key, and Ctrl-x.
 
-## Visualize reports
+# Visualize reports
 
 First, give executable permission to the Python script ticky_check.py.
 
