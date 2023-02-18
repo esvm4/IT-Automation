@@ -53,8 +53,6 @@ psutil.cpu_percent()
 
 Output:
 
-<!-- image written in md-->
-
 ![](https://cdn.qwiklabs.com/PpsG5J5Z4rge2fA02qgdzmB6howEEqDXLpzbzN5t1Ho%3D)
 This shows that CPU utilization is low. Here, you have a CPU with multiple cores; this means one fully loaded CPU thread/virtual core equals 1.2% of total load. So, it only uses one core of the CPU regardless of having multiple cores.
 
@@ -118,9 +116,9 @@ Example:
    ```
 3. Copy files and directories recursively locally:
 
-```bash
-rsync -zrvh [Source-Files-Dir] [Destination]
-```
+   ```bash
+   rsync -zrvh [Source-Files-Dir] [Destination]
+   ```
 
 To learn more about rsync basic command, check out [this link](https://www.linuxtechi.com/rsync-command-examples-linux/)
 
