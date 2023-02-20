@@ -1,5 +1,10 @@
 <h1> Debugging and Solving Software Problems </h1>
 
+1. [Introduction](#introduction)
+   1. [Prerequisites:](#prerequisites)
+2. [Debug issue](#debug-issue)
+3. [Improve performance](#improve-performance)
+
 # Introduction
 
 You're a member of your company's IT department. A colleague that recently left the company wrote a program that's 90% complete; it's designed to read some data files with information on employees and then generate a report. It's up to you to finish the code -- this includes fixing any errors, bugs, and slowness that might be in the unfinished code.
